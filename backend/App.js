@@ -91,10 +91,3 @@ conn_io();
 httpServer.listen(process.env.Port, function () {
     console.log('\uC11C\uBC84\uAC00 http://localhost:'.concat(process.env.Port, ' \uC5D0\uC11C \uC2E4\uD589 \uC911\uC785\uB2C8\uB2E4.'));
 });
-
-// app.get('/test2', async function (req, res) {
-//     conn = await pool.getConnection();
-//     const result = await conn.query('select * from user');
-//     res.send(result);
-//     console.log(result);
-// });
